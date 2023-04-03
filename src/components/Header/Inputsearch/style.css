@@ -1,0 +1,22 @@
+.search-btn {
+  padding: 5px 20px;
+  border-radius: 8px;
+  background-color: #27AE60;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.search-square {
+  width: 18rem;
+  border: 2px solid #E0E0E0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-square input {
+  border: none;
+  max-width: 50%;
+}

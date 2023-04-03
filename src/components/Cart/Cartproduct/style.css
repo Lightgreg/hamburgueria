@@ -1,0 +1,52 @@
+.card-cart {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+}
+
+.card-cart button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #BDBDBD;
+  cursor: pointer;
+}
+
+.product {
+  display: flex;
+}
+
+.card-photo {
+  width: 70px;
+  height: 70px;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 5px;
+}
+
+.food h2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.food h3 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  color: #828282;
+}
+
+@media (max-width:440px) {
+
+}

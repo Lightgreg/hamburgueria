@@ -1,0 +1,18 @@
+.logo-square {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.logo-square h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.logo-square h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #EB5757;
+}
